@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--
+     This tells the browser which version of HTML you are using.
+      This is the first line of any HTML document
+-->
+
+<html>
+<!--
+        The html opening and closing tags encompass all the other tags.
+        Nothing should be written before the opening html tag except the declaration, 
+        nothing should be written after the closing html tag. 
+    -->
+
+<head>
+    <!--
+      The second important basic tag is the head tag, 
+      where you add things like stylesheets, meta tags, library codes, and JavaScript.
+    -->
+
+    <!-- SEO & Meta Tags -->
+
+    <meta charset="UTF-8">
+    <!-- UTF-8 is a character set that identifies the languae of the website to be English-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- This is used for mobile viewing and responsive websites-->
+
+    <meta name="description" content="Contact our high-end Chinese restaurant for an exceptional dining experience. 
+    Our professional team awaits to assist you with reservations, inquiries, and personalized service. 
+    Reach out today and let us create a memorable culinary journey tailored to your preferences.">
+    <!-- Description meta tag is used to describe what the website is about, no more than two sentence -->
+
+    <meta name="Keywords"
+        content="Contact, High-end Chinese restaurant, Reservation,
+        Book a table, Fine dining, Gourmet cuisine,
+        Contact information, Phone number, Email address,
+        Opening hours, Location, Directions,
+        Customer service, Personalized assistance, Inquiry,
+        Feedback, Special requests, Event booking,
+        Private dining, Contact form">
+    <!-- Keyword meta tag is 15-20 keywords, sperated by commas, of the main keywords for the website -->
+
+    <meta name="author" content="Jesse Loko">
+    <!-- Author meta tag is used to include the name of owner.  -->
+
+    <title> Contact Us </title>
+    <!-- This defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab -->
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+
+    <!-- Remix Icon import-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- 
+            The body element contains the documents content.
+    -->
+    <header>
+        <nav>
+            <div class="container">
+
+                <a href="index.html" class="logoButton">
+
+                    <img class="logo" src="images/townLogo.png" width="200px" class="logo">
+
+                    <a>
+                        <div class="navMenu">
+
+                            <a href="index.html">Home</a>
+                            <a href="aboutUs.html">About Us</a>
+                            <a href="menu.html">Menu</a>
+                            <a href="contact.html" class="is-active">Contact Us</a>
+
+                        </div>
+
+                        <button class="burgerButton">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="bar"></div>
+
+                        </button>
+
+            </div>
+
+            <div class="mobile-nav">
+
+                <a href="index.html">Home</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html" class="is-active">Contact Us</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+
+    <main class="main">
+
+
+
+        <div class="contactContainer">
+
+            <img src="images/chicken-fried-spicy-sauce-korean-style-cropped.jpg" class="contactBackgroundImage" alt="Chicken fried spicy sauce korean style">
+
+            <div class="contactRow">
+
+                <div class="contactFrame">
+
+                    <div class="contactFrameInfo">
+
+                        <h1> Contact Info</h1>
+                        <p>
+
+                            <br><i class="ri-map-pin-fill" style="color: #EA712E; font-size: 1.5rem;"></i> 2635 Simpson
+                            Street, Rock Island
+                            IL, 61201<br>
+                            <br><i class="ri-mail-send-fill" style="color: #4692DD; font-size: 1.5rem;"></i>
+                            town.cuisine@gmail.com<br>
+                            <br><i class="ri-phone-fill" style="color: #4692DD; font-size: 1.5rem;"></i> Phone Number
+                            708-200-7299<br>
+
+                        </p>
+
+                        <br>
+
+                        <a href="https:/www.facebook.com" style="text-decoration:none; font-size: 1.9rem;"
+                            target="_blank">
+
+                            <i class="ri-facebook-fill facebook" style="color: #f7f8f9;"></i>&nbsp;
+                            <!--  #2B77BE;  -->
+                        </a>
+
+                        <a href="https:/www.instagram.com" style="text-decoration:none; font-size: 1.9rem;"
+                            target="_blank">
+
+                            <i class="ri-instagram-line instagram" style="color: #f4f5f6;"></i>&nbsp;
+
+                        </a>
+
+                        <a href="https:/www.twitter.com" style="text-decoration:none; font-size: 1.9rem;"
+                            target="_blank">
+
+                            <i class="ri-twitter-fill twitter" style="color: #ffffff;"></i>&nbsp;
+
+                        </a>
+                        <br>
+
+                    </div>
+
+                </div>
+
+                <div class="contactForm">
+
+                    <h1> Send your Request </h1><br>
+
+                    <form class="userContactInfo">
+
+                        <div class="firstName contactSideForm">
+                            <label for="fName"> First Name<br></label>
+                            <input type="text" id="fName" name="fName" placeholder="First Name" class="formBorderStyle">
+
+                        </div>
+
+
+                        <div class="lastName contactSideForm2">
+                            <label for="lName"> Last Name<br></label>
+                            <input type="text" id="lName" name="lName" placeholder="Last Name" class="formBorderStyle">
+
+                        </div>
+
+                        <div class="email contactSideForm">
+
+                            <label for="mail"> <br>E-mail<br></label>
+                            <input type="email" id="mail" name="mail" placeholder="username@gmail.com"
+                                class="formBorderStyle">
+
+                        </div>
+
+
+                        <div class="phoneNumber contactSideForm2">
+
+                            <label for="pNumber" class="formRightSide"> <br>Phone Number<br></label>
+                            <input type="number" id="pNumber" name="pNumber" placeholder="1234567890"
+                                class="formBorderStyle">
+                        </div>
+
+
+
+                    </form>
+
+                    <form class="userContactInfo1">
+
+
+                        <div class="contactMessage">
+                            <label for="cMessage"> Message </label><br>
+
+
+                            <input type="text" name="cMessage" id="cMessage"> <br>
+
+
+                        </div>
+
+
+                        <br>
+
+                        <input type="reset" value="Reset" class="resetButton">
+                        <input type="submit" value="Submit" class="submitButton">
+
+
+                    </form>
+
+
+
+                </div>
+
+
+                <div class="contactMap">
+
+
+                    <iframe class="cMap"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6116.749006185469!2d-75.15713805!3d39.95537889999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c62a7ab7be51%3A0x4df686e8aef6553!2sChinatown%2C%20Philadelphia%2C%20PA!5e0!3m2!1sen!2sus!4v1686437881678!5m2!1sen!2sus"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+
+
+            </div>
+            <div id="topArrow"> <i class="ri-arrow-up-line" id="topArrow-value"></i></div>
+        </div>
+
+
+    </main>
+
+
+
+    <script src="js/townBurgerButton"></script>
+    <script src="js/scrollToTopButton.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<!--
+     This tells the browser which version of HTML you are using.
+      This is the first line of any HTML document
+-->
+
+<html>
+<!--
+        The html opening and closing tags encompass all the other tags.
+        Nothing should be written before the opening html tag except the declaration, 
+        nothing should be written after the closing html tag. 
+    -->
+
+<head>
+    <!--
+      The second important basic tag is the head tag, 
+      where you add things like stylesheets, meta tags, library codes, and JavaScript.
+    -->
+
+    <!-- SEO & Meta Tags -->
+
+    <meta charset="UTF-8">
+    <!-- UTF-8 is a character set that identifies the languae of the website to be English-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- This is used for mobile viewing and responsive websites-->
+
+    <meta name="description" content="Savor the exquisite flavors of our high-end Chinese restaurant's menu. 
+    Discover a fusion of traditional and contemporary dishes crafted with precision and premium ingredients. 
+    Indulge in an unforgettable dining experience tailored for discerning palates. 
+    Explore our culinary masterpieces and elevate your gastronomic journey.">
+    <!-- Description meta tag is used to describe what the website is about, no more than two sentence -->
+
+    <meta name="Keywords"
+        content="Chinese food, menu,reservation,Dumplings,
+        Egg Roll,Youtiao,Fried Sesame Seed,Porridge & Congee,
+        Pork Fried Rice,Egg Roll,Spicy Noodle Soup,Fried Shrimp,
+        Chow Mein, Beef Fried Rice,Shrimp Fried Rice,Steamed Bao Buns,
+        Sesame Chicken, Chow Mein">
+    <!-- Keyword meta tag is 15-20 keywords, sperated by commas, of the main keywords for the website -->
+
+    <meta name="author" content="Jesse Loko">
+    <!-- Author meta tag is used to include the name of owner.  -->
+
+    <title> Menu </title>
+    <!-- This defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab -->
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+
+    <!-- Remix Icon import-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- 
+            The body element contains the documents content.
+    -->
+    <header>
+        <nav>
+            <div class="container">
+
+                <a href="index.html" class="logoButton">
+
+                    <img class="logo" src="images/townLogo.png" width="200px" class="logo">
+
+                    <a>
+                        <div class="navMenu">
+
+                            <a href="index.html">Home</a>
+                            <a href="aboutUs.html">About Us</a>
+                            <a href="menu.html" class="is-active">Menu</a>
+                            <a href="contact.html">Contact Us</a>
+
+                        </div>
+
+                        <button class="burgerButton">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="bar"></div>
+
+                        </button>
+
+            </div>
+
+            <div class="mobile-nav">
+
+                <a href="index.html">Home</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="menu.html" class="is-active">Menu</a>
+                <a href="contact.html">Contact Us</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+
+    <main class="main">
+
+
+        <div class="menuContainer">
+            <video autoplay="autoplay" class="foodShowcase" muted>
+
+
+
+                <source src="images/pexels-pixabay-854345-1280x720-30fps.mp4" type=video/mp4>
+
+
+            </video>
+
+            <div class="menuData">
+
+                <h1 class="menuTitle">
+                    Menu<br>
+                </h1>
+
+                <p class="menuDescription">
+                    Prepare your taste buds for an extraordinary gastronomic experience as you peruse our extensive
+                    menu.
+                    From the sizzling stir-fries of Cantonese cuisine to the aromatic spices of Sichuan dishes,
+                    each item has been crafted with passion and precision by our talented chefs.<br>
+                </p>
+
+            </div>
+
+
+
+
+            <div class="tabs">
+
+                <div class="tabs__head">
+
+                    <div class="tabs__toggle is-active">
+                        <span class="tabs__name">Breakfast</span>
+                    </div>
+
+                    <div class="tabs__toggle">
+                        <span class="tabs__name">Lunch</span>
+                    </div>
+
+                    <div class="tabs__toggle">
+                        <span class="tabs__name">Dinner</span>
+                    </div>
+
+                </div>
+
+
+
+                <div class="tabs__body">
+
+                    <div class="tabs__content is-active">
+
+                        <div class="slideContent">
+
+                            <div class="innerSlider isActive">
+
+                                <span class="slideToggle"></span>
+
+                            </div>
+
+                            <div class="innerSlider">
+
+                                <span class="slideToggle"></span>
+                            </div>
+
+                            <div class="innerSlider">
+
+                                <span class="slideToggle"></span>
+                            </div>
+
+                            <div class="innerSlider">
+
+                                <span class="slideToggle"></span>
+                            </div>
+
+                            <div class="innerSlider">
+
+                                <span class="slideToggle"></span>
+                            </div>
+                        </div>
+
+
+
+                        <div class="innerContent isActive">
+
+                            <img class="dishImage" src="images/pexels-mikhail-nilov-8093849.jpg" alt="breakfast1 - Dumpling">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Dumplings</h2>
+                                <p class="tabs__text breakfastDescription">
+
+                                    The Dumplings meal at our restaurant is a culinary delight that
+                                    showcases the artistry and deliciousness of this beloved Chinese dish.<br>
+                                    Accompany your Dumplings meal with a selection of dipping sauces to further enhance
+                                    the taste. <br>
+                                    From tangy soy-based sauces to spicy chili oil or aromatic vinegar
+                                    blends, these condiments add an extra layer of complexity to the already delicious
+                                    dumplings.
+
+
+                                </p>
+
+                              <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="innerContent">
+
+                            <img class="dishImage" src="images/kyndall-ramirez-3HpyvyPCjPA-unsplash.jpg"
+                                alt="breakfast2 - Egg Roll">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Egg Roll</h2>
+                                <p class="tabs__text breakfastDescription">
+
+
+                                    Our Egg Rolls are meticulously crafted, using a delicate balance of ingredients.
+                                    The filling often includes a combination of tender vegetables, such as cabbage,
+                                    carrots,
+                                    and bean sprouts, sautéed with savory seasonings and sometimes accompanied by meat
+                                    or shrimp.<br>
+                                    This flavorful mixture is carefully encased in a thin pastry wrapper that
+                                    crisps up to perfection during the frying process.<br>
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+                        <div class="innerContent">
+
+                            <img class="dishImage" src="images/fried-bread-g7192907a4_1280.jpg" alt="breakfast3 - Youtiao">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Youtiao</h2>
+                                <p class="tabs__text breakfastDescription">
+
+                                    The Youtiao meal at our restaurant offers a delightful combination of
+                                    simplicity and indulgence.<br>
+                                    Drizzle the Youtiao with sweet condensed milk or honey for a touch of sweetness.<br>
+                                    For a savory twist, pair it with a side of soy sauce or a spicy dipping sauce that
+                                    tantalizes your taste buds.<br>
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="innerContent">
+
+                            <img class="dishImage" src="images/pexels-hải-nguyễn-5949005.jpg" alt="breakfast4 - Fried Sesame Seed">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Fried Sesame Seed</h2>
+                                <p class="tabs__text breakfastDescription">
+
+                                    The Fried Sesame Seed Ball is a delightful treat
+                                    that combines the perfect balance of crispy,
+                                    golden exterior and a lusciously soft and sweet interior
+                                    containing sweet red bean paste, lotus seed paste, or creamy black sesame paste.
+                                    <br>
+
+                                    The combination of textures and tastes creates a harmonious balance that will
+                                    enchant your taste buds.<br>
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+                        <div class="innerContent">
+
+                            <img class="dishImage" src="images/oats-g77329c4c1_1280.jpg" alt="breakfast5 - Porridge & Congee">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Porridge & Congee</h2>
+                                <p class="tabs__text breakfastDescription">
+
+                                    The Porridge and Congee at our restaurant is a comforting
+                                    and nourishing experience that will warm your heart and satisfy your appetite.<br>
+                                    Our porridge is made with the utmost care and attention to detail,
+                                    simmered to perfection for hours to achieve a smooth and creamy consistency.<br>
+                                    It is crafted using high-quality rice,
+                                    combined with a delicate balance of flavors and ingredients.<br>
+
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <div class="tabs__content ">
+
+                        <div class="slideContent">
+
+                            <div class="innerSlider1 isActive">
+
+                                <span class="slideToggle"></span>
+
+                            </div>
+
+                            <div class="innerSlider1">
+
+                                <span class="slideToggle"></span>
+                            </div>
+
+                            <div class="innerSlider1">
+
+                                <span class="slideToggle"></span>
+                            </div>
+
+                            <div class="innerSlider1">
+
+                                <span class="slideToggle"></span>
+                            </div>
+
+                            <div class="innerSlider1">
+
+                                <span class="slideToggle"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="innerContent1 isActive">
+
+                            <img class="dishImage" src="images/pexels-markus-winkler-12100417-lunch1.jpg"
+                                alt="Lunch1 - Pork Fried Rice" width="100%">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Pork Fried Rice</h2>
+                                <p class="tabs__text breakfastDescription">
+
+                                    Imagine a plate of steaming fried rice, each grain glistening with a flavorful
+                                    coating. Our Pork Fried Rice is expertly prepared, featuring a medley of
+                                    high-quality ingredients marinated to perfection, and stir-fried to a
+                                    tender and juicy consistencythat come together to create a harmonious symphony of
+                                    taste.<br>
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="innerContent1">
+
+                            <img class="dishImage" src="images/kyndall-ramirez-3HpyvyPCjPA-unsplash.jpg"
+                                alt="Lunch2 - Egg Roll">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Egg Roll</h2>
+                                <p class="tabs__text breakfastDescription">
+
+
+                                    Our Egg Rolls are meticulously crafted, using a delicate balance of ingredients.
+                                    The filling often includes a combination of tender vegetables, such as cabbage,
+                                    carrots,
+                                    and bean sprouts, sautéed with savory seasonings and sometimes accompanied by meat
+                                    or shrimp.<br>
+                                    This flavorful mixture is carefully encased in a thin pastry wrapper that
+                                    crisps up to perfection during the frying process.<br>
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+                        <div class="innerContent1">
+
+                            <img class="dishImage" src="images/pexels-cats-coming-1907227-lunch1.jpg" alt="Lunch3 - Spicy Noodle Soup">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Spicy Noodle Soup</h2>
+                                <p class="tabs__text breakfastDescription">
+
+                                    The Spicy Noodle Soup meal at our Chinese food restaurant is a culinary delight that
+                                    offers a tantalizing combination of flavors, heat, and comfort.<br>
+                                    Our Spicy Noodle Soup starts with a carefully crafted broth
+                                    that is infused with a variety of aromatic spices and seasonings.
+                                    It's a dish that
+                                    will warm your soul and awaken your taste buds with its fiery and aromatic
+                                    qualities.<br>
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="innerContent1">
+
+                            <img class="dishImage" src="images/pexels-jonathan-borba-3622477-dinner 2.jpg"
+                                alt="Lunch4 - Fried Shrimp">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Fried Shrimp</h2>
+                                <p class="tabs__text breakfastDescription">
+
+
+                                    Picture a plate filled with plump, juicy shrimp, lightly breaded and fried to a
+                                    golden perfection. <br>
+                                    Our Fried Shrimp is made using high-quality shrimp that has been
+                                    carefully seasoned and coated with a delicate mixture of breadcrumbs or batter.<br>
+                                    This process ensures that each bite reveals a delectable contrast of textures—the
+                                    tender and juicy shrimp encased in a crunchy, flavorful coating.<br>
+
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+                        <div class="innerContent1">
+
+                            <img class="dishImage" src="images/focused-on-you-e2-SLgEmzyg-unsplash-dinner3.jpg"
+                                alt="Lunch5 - Chow Mein" width="95%">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Chow Mein</h2>
+                                <p class="tabs__text breakfastDescription">
+                                    Imagine a plate filled with long, springy noodles, perfectly cooked to achieve a
+                                    delightful texture. Our Chow Mein features a medley of ingredients that create a
+                                    harmonious blend of flavors and textures.
+
+                                    The star of the dish is the noodles themselves. They are often made from wheat flour
+                                    and stir-fried to a delicious chewiness. The noodles absorb the savory sauces and
+                                    seasonings, adding depth and richness to every bite.<br>
+
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="tabs__content ">
+
+                        <div class="slideContent">
+
+                            <div class="innerSlider2 isActive">
+
+                                <span class="slideToggle"></span>
+
+                            </div>
+
+                            <div class="innerSlider2">
+
+                                <span class="slideToggle"></span>
+                            </div>
+
+                            <div class="innerSlider2">
+
+                                <span class="slideToggle"></span>
+                            </div>
+
+                            <div class="innerSlider2">
+
+                                <span class="slideToggle"></span>
+                            </div>
+
+                            <div class="innerSlider2">
+
+                                <span class="slideToggle"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="innerContent2 isActive">
+
+                            <img class="dishImage"
+                                src="images/stir-frying-beef-with-sweet-peppers-green-beans-rice-dinner6.jpg"
+                                alt="Dinner1 - Beef Fried Rice" width="100%">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Beef Fried Rice</h2>
+                                <p class="tabs__text breakfastDescription">
+
+                                    Our Beef Fried Rice meal combines tender beef, fragrant rice, and a medley of fresh
+                                    vegetables, creating a flavorful and satisfying dish. The succulent beef adds a
+                                    savory richness, while the stir-fried vegetables provide a delightful crunch. Each
+                                    bite of our Beef Fried Rice is a harmonious blend of textures and flavors that will
+                                    leave you craving for more.<br>
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="innerContent2">
+
+                            <img class="dishImage"
+                                src="images/american-shrimp-fried-rice-served-with-chili-fish-sauce-thai-food - dinner8.jpg"
+                                alt="Dinner2 - Shrimp Fried Rice">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Shrimp Fried Rice</h2>
+                                <p class="tabs__text breakfastDescription">
+
+
+                                    Our Shrimp Fried Rice is a delectable combination of plump, succulent shrimp,
+                                    fragrant rice, and a medley of vegetables, creating a flavorful and satisfying dish.
+                                    The juicy shrimp adds a delightful seafood element, while the stir-fried vegetables
+                                    provide a burst of freshness. Each mouthful of our Shrimp Fried Rice is a harmonious
+                                    fusion of textures and flavors that will leave you wanting another bite.<br>
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+                        <div class="innerContent2">
+
+                            <img class="dishImage" src="images/steamed-chinese-pork-stuffed-buns - dinner7.jpg"
+                                alt="Dinner3 - Steamed Bao Buns">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Steamed Bao Buns</h2>
+                                <p class="tabs__text breakfastDescription">
+
+
+                                    Our Steamed Bao Buns are fluffy, pillowy pockets of delight that encase a flavorful
+                                    filling, creating a heavenly culinary experience. The soft, steamed buns are a
+                                    perfect combination of lightness and tenderness, while the filling adds a burst of
+                                    savory goodness. Each bite of our Steamed Bao Buns is a delightful balance of
+                                    textures and flavors that will leave you craving for more.<br>
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="innerContent2">
+
+                            <img class="dishImage"
+                                src="images/homemade-kung-pao-chicken-with-peppers-vegetables-chinese-food-stir-fry - dinner4.jpg"
+                                alt="Dinner4 - Sesame Chicken">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName"> Sesame Chicken</h2>
+                                <p class="tabs__text breakfastDescription">
+
+
+                                    Our Sesame Chicken is a mouthwatering dish that features tender, succulent chicken
+                                    pieces coated in a flavorful sauce and sprinkled with toasted sesame seeds.
+                                    The chicken is cooked to perfection, offering a juicy and satisfying bite in every
+                                    mouthful. The combination of sweet and savory flavors, along with the nutty aroma of
+                                    the sesame seeds, creates a truly delightful culinary experience.<br>
+
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+                        <div class="innerContent2">
+
+                            <img class="dishImage"
+                                src="images/grilled-chicken-meat-appetizer-spicy-with-honey-generative-ai - dinner 5.jpg"
+                                alt="Dinner5 - Chow Mein" width="95%">
+                            <div class="leftImageBox">
+
+                            </div>
+
+                            <div class="dishDescription">
+
+                                <h2 class="tabs__title breakfastName">Chow Mein</h2>
+                                <p class="tabs__text breakfastDescription">
+                                    Our Bourbon Chicken is a savory and succulent dish that combines tender chicken with
+                                    a rich, flavorful bourbon-infused sauce. The chicken is marinated to perfection,
+                                    allowing the flavors to penetrate each juicy bite. The sauce, with its hints of
+                                    sweetness and depth from the bourbon, adds a delightful complexity to the dish,
+                                    making it a true crowd-pleaser.<br>
+
+
+                                </p>
+
+                                 <!-- <div class="addToCart">Add to Cart</div> -->
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+            <div class="reservation">
+                <img src="images/pexels-satoshi-hirayama-4058519.jpg" class="restaurantImage" alt="Traditional Chinese Building with trees and pond">
+
+                <div class="row">
+
+                    <div class="frameContainer">
+                        <img src="images/frame - Vecteezy - Ahlan Tulastra-03.png" class="hoursFrame"
+                            alt="frame border">
+
+                    </div>
+
+                    <div class="formContainer">
+
+
+
+                        <form class="formInfo">
+
+                            <div class="fullName sideForm">
+                                <label for="fName"> Full Name<br></label>
+                                <input type="text" id="fName" name="fName" placeholder="First Name Last Name"
+                                    class="formBorderStyle">
+
+                            </div>
+
+
+
+
+
+
+                            <div class="phoneNumber sideForm2">
+
+                                <label for="pNumber" class="formRightSide"> Phone Number<br></label>
+                                <input type="number" id="pNumber" name="pNumber" placeholder="1234567890"
+                                    class="formBorderStyle">
+                            </div>
+
+
+
+
+
+
+                            <div class="email sideForm">
+
+                                <label for="mail"> <br>E-mail<br></label>
+                                <input type="email" id="mail" name="mail" placeholder="username@gmail.com"
+                                    class="formBorderStyle">
+
+                            </div>
+
+
+
+
+
+                            <div class="date sideForm2">
+
+                                <label for="resDate"> <br>Reservation date<br></label>
+                                <input type="date" id="resDate" name="resDate" class="formBorderStyle">
+
+
+
+                            </div>
+
+
+                        </form>
+
+                        <form class="formInfo1">
+
+                            <div class="reservationTime">
+
+                                <label for="resTime"> <br>Reservation Time<br></label>
+                                <input type="time" id="resTime" name="resTime" class="formBorderStyle">
+
+
+                            </div>
+
+
+                            <div class="sittingPrefer">
+
+
+                                <br>
+                                <p>Please select your Sitting Preference:</p>
+                                <input type="radio" id="outdoor" name="tablePrefer" value="outdoor">
+                                <label for="outdoor">Outdoor</label><br>
+                                <input type="radio" id="indoor" name="tablePrefer" value="indoor">
+                                <label for="indoor">Indoor</label><br>
+                                <input type="radio" id="windowSeat" name="tablePrefer" value="windowSeat">
+                                <label for="windowSeat">Window Seat</label><br>
+                                <input type="radio" id="Booth" name="tablePrefer" value="Booth">
+                                <label for="Booth">Booth</label><br>
+                                <input type="radio" id="Outdoor" name="tablePrefer" value="noPreference">
+                                <label for="noPreference">No Preference</label><br>
+
+
+
+                            </div>
+
+
+                            <br>
+
+
+                            <div class="specialRequest">
+                                <label for="spRequest"> Special Request<br></label>
+
+
+                                <input type="text" name="spRequest" id="spRequest"> <br>
+
+
+                            </div>
+
+
+                            <br>
+                            <input type="reset" value="Reset" class="resetButton">
+                            <input type="submit" value="Submit" class="submitButton">
+
+
+                        </form>
+
+
+
+                    </div>
+
+
+                </div>
+ 
+
+            </div>
+
+
+            <div id="topArrow"> <i class="ri-arrow-up-line" id="topArrow-value"></i></div>
+
+
+        </div>
+
+    </main>
+
+
+
+    <script src="js/townBurgerButton"></script>
+    <script src="js/scrollToTopButton.js"></script>
+    <script src="js/animatedTab.js"></script>
+    <script src="js/innerSlider.js"></script>
+</body>
+
+</html>

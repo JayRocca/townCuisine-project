@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--
+     This tells the browser which version of HTML you are using.
+      This is the first line of any HTML document
+-->
+
+
+<!--
+    Always add a lang attribute to the html tag to set the default
+     language of your page.
+-->
+
+<html lang="en">
+<!--
+        The html opening and closing tags encompass all the other tags.
+        Nothing should be written before the opening html tag except the declaration, 
+        nothing should be written after the closing html tag. 
+    -->
+
+<head>
+    <!--
+      The second important basic tag is the head tag, 
+      where you add things like stylesheets, meta tags, library codes, and JavaScript.
+    -->
+
+    <!-- SEO & Meta Tags -->
+
+    <meta charset="UTF-8">
+    <!-- UTF-8 is a character set that identifies the languae of the website to be English-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- This is used for mobile viewing and responsive websites-->
+
+    <meta name="description"
+        content="Elevate your dining experience at our high-end Chinese restaurant. 
+        Immerse in refined flavors and exquisite ambiance. 
+        Indulge in gourmet cuisine tailored for discerning tastes. 
+        Book now for a memorable culinary journey.">
+    <!-- Description meta tag is used to describe what the website is about, no more than two sentence -->
+
+    <meta name="Keywords" content="High-end Chinese restaurant, Fine dining,Gourmet Chinese cuisine,
+        Upscale dining experience, Exclusive menu, Culinary excellence, Elegant ambiance,
+        Luxury dining, Exquisite flavors, Artful presentation, Sophisticated clientele, Exceptional service,
+        Chef's specialties, Premium ingredients, Wine pairing expertise, Intimate dining setting,
+        Opulent decor, Culinary craftsmanship, Tailored dining experience,Exemplary attention to detail">
+    <!-- Keyword meta tag is 15-20 keywords, sperated by commas, of the main keywords for the website -->
+
+    <meta name="author" content="Jesse Loko">
+    <!-- Author meta tag is used to include the name of owner.  -->
+
+    <title> Town Cuisine </title>
+    <!-- This defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab -->
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+    <!-- Remix Icon import-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+    <!-- 
+            The body element contains the documents content.
+    -->
+
+    <header>
+        <nav>
+            <div class="container">
+
+                <a href="index.html" class="logoButton">
+
+                    <img class="logo" src="images/townLogo.png" width="200" alt="Town Cuisine logo image">
+
+                </a>
+
+                <div class="navMenu">
+
+                    <a href="#" class="is-active">Home</a>
+                    <a href="aboutUs.html">About Us</a>
+                    <a href="menu.html">Menu</a>
+                    <a href="contact.html">Contact Us</a>
+
+                </div>
+
+                <button class="burgerButton">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <!-- <div class="bar"></div> -->
+
+                </button>
+
+            </div>
+
+            <div class="mobile-nav">
+
+                <a href="index.html" class="is.active">Home</a>
+                <a href="aboutUs.html">About Us</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Contact Us</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main class="main">
+
+        <section class="home section" id="home">
+            <div class="homeContainer">
+                <img src="images/noodle_10.png" class="homeImage" alt="noodle icon">
+                <div class="homeData">
+                    <h1 class="homeTitle">
+                        Welcome to Town Cuisine
+                    </h1>
+                    <p class="homeDescription">
+
+                        Experience the ultimate taste of China today!
+                        Reserve your table now and embark on a delectable journey
+                        through the flavors of authentic Chinese cuisine.
+
+                    </p>
+<!--
+                    <a href="aboutUs.html" class="exploreButton">
+                        Explore Now <i class="ri-arrow-right-circle-line"></i>
+                    </a>
+
+                    <span>&#10148;</span>&nbsp; 
+                        <span>&#10148;</span>
+                -->
+                    <a href="aboutUs.html" class="arrowSkewed">
+                        Explore Now &nbsp;
+                        
+                        <div class="arRight">
+                            <span class="ar1">
+                                &nbsp;&#10148;&nbsp;
+                            </span>
+                            <span class="ar2">
+                                &#10148;&nbsp;
+                            </span>
+                            <span class="ar3">
+                                &#10148;&nbsp;
+                            </span>
+            
+                        </div>
+                        
+                    </a>
+                
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <script src="js/townBurgerButton"></script>
+
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+
+const hamburgerButton = document.querySelector('.burgerButton');
+const navMenu = document.querySelectorAll('navMenu');
+const mobNav = document.querySelector('.mobile-nav');
+
+//const navLink = document.querySelectorAll()
+
+//this. is referencing the hamburgerButton
+hamburgerButton.addEventListener('click', function () {
+    //When clicked show turn hamburger to X
+    this.classList.toggle('is-active');
+    mobNav.classList.toggle('is-active');
+});
+
+ 

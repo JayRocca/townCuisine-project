@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--
+     This tells the browser which version of HTML you are using.
+      This is the first line of any HTML document
+-->
+
+<html>
+<!--
+        The html opening and closing tags encompass all the other tags.
+        Nothing should be written before the opening html tag except the declaration, 
+        nothing should be written after the closing html tag. 
+    -->
+
+<head>
+    <!--
+      The second important basic tag is the head tag, 
+      where you add things like stylesheets, meta tags, library codes, and JavaScript.
+    -->
+
+    <!-- SEO & Meta Tags -->
+
+    <meta charset="UTF-8">
+    <!-- UTF-8 is a character set that identifies the languae of the website to be English-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- This is used for mobile viewing and responsive websites-->
+
+    <meta name="description" content="Experience culinary excellence at our high-end Chinese restaurant. 
+    Our celebrated chef and meticulous team create artful dishes with premium, locally sourced ingredients. 
+    Immerse yourself in an elegant ambiance and personalized service tailored for discerning tastes. 
+    Discover the epitome of fine dining.">
+    <!-- Description meta tag is used to describe what the website is about, no more than two sentence -->
+
+    <meta name="Keywords"
+        content="High-end Chinese restaurant, Fine dining,Gourmet Chinese cuisine,
+        Upscale dining experience, Exclusive menu, Culinary excellence, Elegant ambiance,
+        Luxury dining, Exquisite flavors, Artful presentation, Sophisticated clientele, Exceptional service,
+        Chef's specialties, Premium ingredients, Wine pairing expertise, Intimate dining setting,
+        Opulent decor, Culinary craftsmanship, Tailored dining experience,Exemplary attention to detail">
+    <!-- Keyword meta tag is 15-20 keywords, sperated by commas, of the main keywords for the website -->
+
+    <meta name="author" content="Jesse Loko">
+    <!-- Author meta tag is used to include the name of owner.  -->
+
+    <title> About Us </title>
+    <!-- This defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab -->
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+
+    <!-- Remix Icon import-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- 
+            The body element contains the documents content.
+    -->
+
+    <header>
+        <nav>
+            <div class="container">
+
+                <a href="index.html" class="logoButton">
+
+                    <img class="logo" src="images/townLogo.png" width="200px" class="logo">
+
+                    <a>
+                        <div class="navMenu">
+
+                            <a href="index.html">Home</a>
+                            <a href="aboutUs.html" class="is-active">About Us</a>
+                            <a href="menu.html">Menu</a>
+                            <a href="contact.html">Contact Us</a>
+
+                        </div>
+
+                        <button class="burgerButton">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div class="bar"></div>
+
+                        </button>
+
+            </div>
+
+            <div class="mobile-nav">
+
+                <a href="index.html">Home</a>
+                <a href="aboutUs.html" class="is-active">About Us</a>
+                <a href="menu.html">Menu</a>
+                <a href="contact.html">Contact Us</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+
+    <main class="main">
+
+        <div class="aboutContainer">
+
+            <video autoplay="autoplay" class="drinkShowcase" muted>
+
+                <source src="images/pexels-pavel-danilyuk-8764784-3840x2160-25fps.mp4" type=video/mp4>
+                <!--  <source src="images/pexels-pixabay-854345-1280x720-30fps.mp4" type=video/mp4>  -->
+
+            </video>
+
+            <div class="aboutMissionData">
+
+                <img src="images/pexels-mikhail-nilov-8093968-invertedcrop.jpg" class="aboutChefImage" alt="Image of chef making dumpling">
+
+                <h1 class="missionTitle">
+
+                    Our Mission<br>
+
+                </h1>
+
+                <p class="missionDescription">
+                    To bring quality, style and the wish for good fortune to all of our guests.<br>
+                    We provide a high-end experience through Chinese cuisine.<br>
+                </p>
+
+            </div>
+
+            <div class="aboutVisionData">
+
+                <h2 class="visionTitle" id="textHidden">
+
+                    Our Vision<br>
+ 
+                </h2>
+
+                <p class="visionDescription classTextHidden" id="textHidden">
+
+                    TOWN combines a variety of chinese cuisine to excite and delight our customers.
+                    Our vision for the future is to create experiential dining that is more than just a night
+                    out.
+                    We aim to bring quality and luxury across all aspects of our brand. <br>
+
+                </p>
+
+                <img src="images/pexels-rachel-claire-4577179.jpg" class="aboutRestaurantImage" alt="Image of high end seat with plants and dark background">
+
+                <p class="visionDescription1 classTextHidden" id="textHidden">
+
+                    The approach of TOWN is to develop our brand with the understanding of both our culture and
+                    consumer insights.
+                    Within our vision always lives the promise of inspiring creativity, conversation and
+                    quality.<br>
+                    Our audience is a high-end clientele who values a dining experience.
+                    The age range of our customers are from early 30s-60s.
+                    We would like them to come back for both personal dining and events.
+
+                </p>
+
+                <!-- <img src="images/pexels-foodie-factor-539430.jpg" class="aboutRestaurantImage"> -->
+
+            </div>
+
+            <div id="topArrow"> <i class="ri-arrow-up-line" id="topArrow-value"></i></div>
+
+        </div>
+
+    </main>
+
+    <script src="js/townBurgerButton"></script>
+    <script src="js/scrollToTopButton.js"></script>
+
+</body>
+
+</html>
