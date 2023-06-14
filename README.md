@@ -1,8 +1,11 @@
 # townCuisine-project
-High End Chinese Food Restaurant - SNHU School Project 06-2023<br>
-GRA-310-Q5077 Digital Graphic Design for Web
+<h2>
+GRA-310-Q5077 Digital Graphic Design for Web - SNHU 06/2023<br>
+High End Chinese Food Restaurant
+</h2>
 
-Tl;DR: During this course I learned and applied the basics of html, css and js to make this website, 
+<h2>Tl;DR</h2>
+During this course I learned and applied the basics of html, css and js to make this website, 
 obviously it might be lacking in a few areas but I belive I did a pretty nice job for my first website.
 
 <h1>Overview</h1><br>
