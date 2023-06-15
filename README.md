@@ -11,10 +11,10 @@ obviously it might be lacking in a few areas but I belive I did a pretty nice jo
 <h1>Overview</h1><br>
 In this assignment, we had to demonstrate our mastery of the following course outcomes:
 
-Combine current and appropriate technological standards of HTML and CSS for designing and implementing a fully functional website
-Employ industry-standard file naming conventions and formats for uploading and delivering web-based content
-Employ the basics of HTML editing applications and FTP applications in the testing and editing of web-based content
-Create a functionally aesthetic user interface through the application of user experience principles
+Combine current and appropriate technological standards of HTML and CSS for designing and implementing a fully functional website<br>
+Employ industry-standard file naming conventions and formats for uploading and delivering web-based content<br>
+Employ the basics of HTML editing applications and FTP applications in the testing and editing of web-based content<br>
+Create a functionally aesthetic user interface through the application of user experience principles<br>
 
 <h1>Prompt</h1><br>
 For this project, you will design and build a functioning and compliant website using HTML and CSS. Your design and build will be based upon one of the brand style guides provided to you.
