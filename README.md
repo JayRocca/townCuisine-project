@@ -46,8 +46,7 @@ Fonts: You must use the fonts from the style guide, Town Restaurant (Athelas and
  For Goudy Old Style, link to Adobe CSS stylesheet in the head section. (See code from link Add to web project.)
 Images: All images should have the alt tag included for SEO. They should be placed in your “images” folder to be linked and should be saved for web size (less than 500 KB).
  
- <h1></h1><br>
-Specifically, you must address the critical elements listed below.<br>
+ <h1> Critical Elements <br></h1><br>
 
 **Design Structure**: Design and implement an overall design structure for website design. Your design structure must demonstrate the following:
 The website contains all the pages outlined (home, menu, about, and contact pages) from the sitemap to convey the overall complexity and depth of a website.
